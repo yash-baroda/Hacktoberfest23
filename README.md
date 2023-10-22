@@ -15,7 +15,7 @@ Welcome to our Hacktoberfest Contributions repository! We're thrilled that you'r
 3. **Create a New Branch:** Create a new branch for your contributions. Use a descriptive name that reflects the nature of your work.
 
     ```bash
-    git checkout -b feature/your-feature
+    git checkout -b your-feature
     ```
 
 ## Making Contributions
@@ -32,12 +32,16 @@ Welcome to our Hacktoberfest Contributions repository! We're thrilled that you'r
 
 - Commit your changes with clear and concise messages that explain the purpose of the commit.
 
+-  Make sure to Fork This Repo
+
 ## Submitting a Pull Request
 
 1. **Push Changes:** Once you've made your contributions, push your changes to your forked repository.
 
     ```bash
-    git push origin feature/your-feature
+    git add .
+    git commit -m <commit-msg>
+    git push origin your-feature
     ```
 
 2. **Create a Pull Request (PR):** Go to the original repository and click on the "New Pull Request" button. Ensure that your base branch is the main repository's main branch.
@@ -52,7 +56,5 @@ Welcome to our Hacktoberfest Contributions repository! We're thrilled that you'r
 ## Additional Information
 
 - If you have any questions or need further clarification on anything related to this project, feel free to open an issue or join our community chat.
-
-- By contributing to this repository, you agree to abide by our [Code of Conduct](link-to-code-of-conduct).
 
 Thank you for your contributions and helping us make this project even better!
